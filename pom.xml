@@ -35,6 +35,7 @@
         <module>features/forum</module>
         <module>features/oidc-authenticator</module>
         <module>features/categories</module>
+        <module>components/key-manager</module>
     </modules>
 
     <build>

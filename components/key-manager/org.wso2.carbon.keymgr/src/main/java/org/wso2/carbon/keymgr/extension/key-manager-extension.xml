@@ -1,0 +1,13 @@
+<KeyManagerExtension>
+
+    <EventManager>
+        <EnableEM>false</EnableEM>
+        <Type>Binary</Type>
+        <ReceiverUrlGroup>tcp://${carbon.local.ip}:${receiver.url.port}</ReceiverUrlGroup>
+        <AuthUrlGroup>ssl://${carbon.local.ip}:${auth.url.port}</AuthUrlGroup>
+        <Username>${admin.username}</Username>
+        <Password>${admin.password}</Password>
+    </EventManager>
+
+</KeyManagerExtension>
+
